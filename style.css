@@ -1,0 +1,110 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+h1, h2, h3, h4, p, li {
+    font-family: Verdana, Geneva, sans-serif !important;
+}
+
+.navbar {
+  background-color: RosyBrown !important;
+  font-size: 1.2em;
+  padding: 1% 0;
+}
+
+.navbar-brand {
+  margin: -10px -10px;
+  min-height: 80px;
+  padding: 5px 5px !important;
+  width: 80px;
+}
+
+.navbar-default .navbar-nav li a {
+  color: #ecdfdf;
+}
+
+.navbar-default .navbar-nav li a:hover .navbar-default .navbar-nav li a:after {
+  color: #fff;
+}
+
+#home {
+  background: url(img/blur.jpg) no-repeat center center fixed;
+  background-size: cover;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.landing-text {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.landing-text h1 {
+  font-size: 500%;
+  font-weight: 700;
+}
+
+.padding {
+  padding: 80px 0;
+}
+
+.padding img {
+  width: 100%;
+}
+
+#fixed {
+  background: url(img/fixed.jpg) no-repeat center center fixed;
+  background-size: cover;
+  display: table;
+  height: 70%;
+  position: relative;
+  width: 100%;
+}
+
+/*.carousel-inner > .item > img {
+    height: 500px;
+    left: 0;
+    min-width: 100%;
+    position: absolute;
+    top: 0;
+} */
+
+footer {
+  background-color: RosyBrown;
+  color: #ecdfdf;
+  padding: 5% 5% 10% 5%;
+  width: 100%;
+}
+
+.fa {
+  color: #ecdfdf;
+  font-size: 40px;
+  padding: 15px;
+}
+
+.fa:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.icon {
+  max-height: 200px;
+}
+
+@media (max-width: 768px) {
+  .landing-text h1 {
+    font-size: 300%;
+  }
+  .fa {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .icon {
+    max-width: 100px;
+    padding-top: 5%;
+  }
+}
